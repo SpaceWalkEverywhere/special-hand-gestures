@@ -1,0 +1,39 @@
+body
+{
+  color: white;
+  background-image:linear-gradient(to bottom right,purple,darkblue,lightblue,lightgreen,yellow,orange,red,orange,yellow,lightgreen,lightblue,darkblue,purple);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#en1 ,#en2  
+{
+  color: black;
+}
+.en
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.head{
+  font-size: 18px;
+  border-radius:10px ;
+  letter-spacing: 5px;
+}
+label{
+  font-size: medium;
+  color:yellowgreen;
+  padding: 60px;
+  border-radius: 10px;
+  background-color: white;
+}
