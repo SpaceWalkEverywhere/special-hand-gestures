@@ -49,7 +49,7 @@ function gr(error,result) {
             document.getElementById("upd-emg1").innerHTML="✋";
         }
         else if (pr1=="Nothing"){
-            document.getElementById("upd-emg1").innerHTML="no gesture found try a new gesture or pls get out of the frame "
+            document.getElementById("upd-emg1").innerHTML="<p style='color:black;'>no gesture found try a new gesture or pls move of the frame!!!</p>";
         }
         if(pr2=="Thumbsup"){
             document.getElementById("upd-emg2").innerHTML="👍";
@@ -61,7 +61,7 @@ function gr(error,result) {
             document.getElementById("upd-emg2").innerHTML="✋";
         }
         else if (pr1=="Nothing"){
-            document.getElementById("upd-emg2").innerHTML="no gesture found try a new gesture or pls get out of the frame "
+            document.getElementById("upd-emg2").innerHTML="<p style='color:black;'>no gesture found try a new gesture or pls move of the frame!!!</p>";
         }
     }
 }
